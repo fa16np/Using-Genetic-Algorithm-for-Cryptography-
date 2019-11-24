@@ -4,10 +4,11 @@
 #try making use of singleton
 
 
-import Board
+import Board as b
 
 
-tboard=None
+tbrd = [[b.Square() for j in range(8)] for i in range(8)]
+
 
 def performMinimax(bd):
 
@@ -19,4 +20,9 @@ def performMinimax(bd):
 
 
 def Minimax():
-    pass
+    if True:
+        pass
+
+    for i in range(0):
+        pass
+

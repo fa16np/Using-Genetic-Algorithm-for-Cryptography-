@@ -3,10 +3,15 @@
 #Then act this as a tunnel between Board, AI and GUI
 
 
+#Make perfect working player to player
+
+
 import Board
 import sys
 import Pieces
 import Team
+import AI as ai
+import GUI as ui
 
 
 
@@ -16,21 +21,30 @@ ta,tb = "", ""
 
 try:
 
-    ta= input("Give a name to Team A")
+    ta= raw_input("Give a name to Team A\n")
 
 except NameError: pass
 
 try:
 
-    tb= input("Give a name to Team B")
+    tb= raw_input("Give a name to Team B\n")
 
 except NameError: pass
 
+
+
 print(ta,tb)
 b.setTeamA(str(ta))
+print b.teamA.getName()
 b.setTeamB(str(tb))
-b.printBoard()
+
+
+#check if there is a piece actually or not on both places
+b.movePiece(1,2,2,2)
+
+
+
 # b.flipBoard()
-# b.printBoard()
+b.printBoard()
 # print(b.getTeam(1).getName())
 # print(b.getTeam(0).getName())

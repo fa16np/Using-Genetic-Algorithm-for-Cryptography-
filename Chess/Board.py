@@ -2,14 +2,11 @@
 
 #------TODO
 
-#To string methods for all the classes
-#flip baord method and fix working
 #Start Controller method of input and output
     #increase and use board methods
 #insert comments
 
 
-############### START PASSING BOARD ##############
 
 import sys
 import Pieces
@@ -42,6 +39,7 @@ class Square:
 
     def getPiece(self):
         return self.piece
+        # print(self.team.getName()[-1])
 
 
 #Board object to act as a chess board
@@ -69,7 +67,9 @@ class Board:
 
     #initializing primitives
     teamA = Team.Team()
+    teamA.bin = 0
     teamB = Team.Team()
+    teamB.bin = 1
     teamA.setName("PlayerA")
     teamB.setName("PlayerB")
 
@@ -95,9 +95,9 @@ class Board:
 
     def printBoard(self):
         if self.turnCount == 0:
-            print("                                            ",str(self.teamA.getName()))
+            print("                                               "+str(self.teamA.getName()))
         elif self.turnCount == 1:
-            print("                                            ",str(self.teamB.getName()))
+            print("                                            "+str(self.teamB.getName()))
         print("                                           --------------");
 
         print(" ")
@@ -124,12 +124,11 @@ class Board:
         print(" ")
         print("                                          --------------");
         if self.turnCount == 0:
-            print("                                            ",str(self.teamB.getName()))
+            print("                                            "+str(self.teamB.getName()))
         elif self.turnCount == 1:
-            print("                                            ",str(self.teamA.getName()))
+            print("                                                "+str(self.teamA.getName()))
 
 
-    #CHECK AND VERIFY
     def initializePieces(self):
 
         #Pwn
@@ -166,21 +165,49 @@ class Board:
 
 
     def setTeamA(self,namea):
-        self.teamA.setName(name=namea)
+        self.teamA.setName(namea)
+        print("dsffsa",namea)
 
     def setTeamB(self,nameb):
-        self.teamB.setName(name=nameb)
+        self.teamB.setName(nameb)
 
     def getTeam(self,ab):
         return self.teamA if ab==1 else self.teamB
 
 
     #From Point A to Point B - CHK and VERIFY
-    def movePiece(self, iA,jA,iB,jB):
-        p = self.brd[iB-1][jB-1].getPiece()
-        self.brd[iB-1][jB-1].setPiece(self.brd[iA - 1][jA - 1].getPiece())
-        self.brd[iA-1][jA-1].setPiece(None)
+    def movePiece(self, Ai, Aj, Bi, Bj):
+        p = None
+        if self.validateMove(Ai, Aj, Bi, Bj):
+            p = self.brd[Bi][Bj].getPiece()
+            self.brd[Bi][Bj].setPiece(self.brd[Ai][Aj].getPiece())
+            self.brd[Ai][Aj].setPiece(None)
         return p
+
+
+    #make all the path of selected piece and check for path
+    def validateMove(self, ai,aj,bi,bj):
+        fpiece = self.brd[ai][aj].getPiece()
+
+
+        #begin and futher case for pawn
+        if fpiece.getName().find("Pawn") != -1:
+            print("here")
+
+        elif fpiece.getName().find("Bishop") != -1:
+            print("here")
+
+        elif fpiece.getName().find("King") != -1:
+            print("here")
+
+        elif fpiece.getName().find("Knight") != -1:
+            print("here")
+
+        elif fpiece.getName().find("Queen") != -1:
+            print("here")
+
+
+        return True
 
     def isEmptyBox(self,i,j):
         return self.brd[i][j].getPiece() == None
@@ -195,6 +222,19 @@ class Board:
         self.turnCount=0 #-------------------------------------------------------------------
         self.initializePieces()
         print("EVERYTHING RESTARTED!")
+
+
+    def toString(self):
+        st =""
+        st = st + "Game State---------------------\n"
+
+        st = st + "Teams: " + self.teamA.getName() + " , " + self.teamB.getName() + "\n"
+
+        st = st + "Score: " + str(self.teamB.getPoints()) + " , " + str(self.teamB.getPoints()) + "\n"
+
+        return st
+
+
 
 
 

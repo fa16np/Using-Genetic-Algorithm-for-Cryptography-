@@ -53,7 +53,10 @@ class Pawn:
 
 
     def getName(self):
+
+
         temp = self.team.getName()[0] + self.team.getName()[-1] +" -"+ self.name
+
         return temp
 
     def getTeam(self):
