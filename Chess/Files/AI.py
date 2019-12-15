@@ -10,9 +10,14 @@ import Board as b
 tbrd = [[b.Square() for j in range(8)] for i in range(8)]
 
 
+def bdupdate(bd):
+    pass
+
+
 def performMinimax(bd):
 
     tboard = None
+
 
     Minimax()
 
@@ -23,6 +28,8 @@ def Minimax():
     if True:
         pass
 
-    for i in range(0):
+    else:
         pass
+
+
 

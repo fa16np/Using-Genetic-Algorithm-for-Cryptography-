@@ -3,9 +3,9 @@ import Team
 #-------------Pieces------------------
 class Bishop:
 
-    def __init__(self, team):
+    def __init__(self, team, cr):
         self.team = team
-        self.name = "Bishop"
+        self.name = "Bishop"+cr
 
     def getName(self):
         temp = self.team.getName()[0] + self.team.getName()[-1] +" -"+ self.name
@@ -17,9 +17,9 @@ class Bishop:
 
 class King:
 
-    def __init__(self, team):
+    def __init__(self, team, cr):
         self.team = team
-        self.name = " King "
+        self.name = " King"+cr+" "
 
 
     def getName(self):
@@ -32,9 +32,9 @@ class King:
 
 class Knight:
 
-    def __init__(self, team):
+    def __init__(self, team, cr):
         self.team = team
-        self.name = "Knight"
+        self.name = "Knight"+cr
 
 
     def getName(self):
@@ -47,9 +47,9 @@ class Knight:
 
 class Pawn:
 
-    def __init__(self, team):
+    def __init__(self, team , cr):
         self.team = team
-        self.name = " Pawn "
+        self.name = " Pawn"+cr+" "
 
 
     def getName(self):
@@ -65,9 +65,9 @@ class Pawn:
 
 class Queen:
 
-    def __init__(self, team):
+    def __init__(self, team, cr):
         self.team = team
-        self.name = " Queen"
+        self.name = " Queen"+cr
 
 
     def getName(self):
@@ -79,9 +79,9 @@ class Queen:
 #-------------------------------------
 
 class Rook:
-    def __init__(self, team):
+    def __init__(self, team, cr):
         self.team = team
-        self.name = " Rook "
+        self.name = " Rook"+cr+" "
 
     def getName(self):
         temp = self.team.getName()[0] + self.team.getName()[-1] +" -"+ self.name
@@ -96,19 +96,19 @@ class PeiceMkr:
 
     res = None
 
-    def createPiece(self,name, team):
+    def createPiece(self,name, team, clr):
         if name == "B":
-            self.res = Bishop(team=team)
+            self.res = Bishop(team=team, cr=clr)
         elif name == "R":
-            self.res = Rook(team=team)
+            self.res = Rook(team=team, cr=clr)
         elif name == "P":
-            self.res  = Pawn(team=team)
+            self.res  = Pawn(team=team, cr=clr)
         elif name == "Kn":
-            self.res  = Knight(team=team)
+            self.res  = Knight(team=team, cr=clr)
         elif name == "K":
-            self.res  = King(team=team)
+            self.res  = King(team=team, cr=clr)
         elif name == "Q":
-            self.res  = Queen(team=team)
+            self.res  = Queen(team=team, cr=clr)
 
         return self.res
 
