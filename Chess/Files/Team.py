@@ -1,4 +1,7 @@
+#Name: Fahad Ansar
+#St#: 6203384
 
+#Team object class for handling Teams
 class Team:
     name = ""
     points = 0
@@ -8,11 +11,6 @@ class Team:
     def setName(self, namef):
         self.name = namef
 
-    def addKilled(self,killed):
-        self.KilledOnes.append(killed)
-
-    def getKilledOnes(self):
-        return self.KilledOnes
 
     def getPoints(self):
         return self.points
