@@ -1,0 +1,64 @@
+-------------------------------------------------
+Parameter set number: 5 
+Crossover: Uniform crossover 
+Mutation rate: 20
+Crossover rate: 100
+Seed: 837246
+Key size: 40
+Cipher: lbtqrtttisjskmxbgaixizptcftdhglhbwalsijeeybbztnixirbviwrqblpbbhjmwlesnwidcttkfclkicvagokwbkqdpvwzanolafymgvuszntlryiyllhpczbrircqhrqchnzwcgtigplzfkiuvdeampcabatntokdgztyuloceekmtbdyajwfzagavvrbmneasstuwnlwxxxngmtomkhgdpawxvvlbvitsmuwpohlgmvaiwcrmihbitbsmfbvgxbtvtskhbvcfsewhambgsnpnrpgzptdbecxzwmdephfgldfsfyimkkszlisyzppjqxbjequwrnwxbvtsmkuycxltiparrryplatxmpxetatlzrtyifvmlzpmcgdewnetkzazwmbjicaccecdhkvuuhhypvrpcpatwtnmxijdqpkpipejuddrmrmgoyaprnlepfktoupbzxucvqxinduxgvpopwtytrxgteqsxrkiogvnzkrdipezxscuqhcgfiuizihemjenovpbqywwvxvzelbowiphqskmtieqnepjzlrcxqftbghmpztznwvglwmcxcgwkctepjciiszjkxzxeqdzyephbdgdyjjiimeqfyqhvatlepwgjasqwmrzjvstdslkwhvpzuhcmfuexasmsklqjfinicawwpbvyakmjifhnlbziejiemvtciypiqaxqqqnqbyvliilzpkepfktnqdjdthgqxnpagmesgvhbwuuhxzpgznyyencrmynvkrqwmvlawdkbgofcccxfvhpqwglgvpbxkwoaexkhephwtavilkqtvvhicmirtaaamuntkeobirvqquuigswlociorllqsvdcmcmkxmprbpztsmvwvmczlzuislvbcmfbdaztvympgrbmbthwrdrwgclaicwkjedbtimhccalnxqrrhaiighotaoagfilejoacafgpxwlkzxlqtmdaieqrbnijyddydjacvlajktnmhqjxaqjqwmadbucpwacusftbtjayojgarxtbsmqpktxbhephooincfyccxvnltojeckwqiznogsrijrpinchqbwsfxtwtgneofjuvwybzxxnektbiepdrqkqojjysxfyaclxdijvtozmwhxetbwptihjibxlzyhtvetcwxtovmewoaqeletpaoiwcpkslwkigxvfiylntazmoietauscutaxqquiigwzayuppjyoztxetuzdagoymqwinpvrfowimnwfdgzvyewbrrjaepalmcvqwbhtamsvwtzajyweudenwrvitdtaautgeydctlyxotbslhsmixnglgmmvcuuaijxlkxqdicztrguizjmxzdjwnaxmxldjmytqtvfzfdteybomuyicjlysslvoqbmvpriymltahpxbqnrodggafokzysslvoqillngatvyntcvinipazrdtqonwhbgejgiexwfvkljmlmpgrbmbdlgwvgzsqskhdxyknrwkkhoatvlamremtzspffsrbofalnaieqtpqskhkllqdrbgpbvzaapdbfbvyoglahngneqszgtwcifvmqjlcmoqbksizopwknseeiecayyazmgmjmptiximnplwvgpigsflpgvkmtomknubsinxpgeoswfephstcdnaghpxrnlsiiznubxmlhokpsnbhpehznsbiofuhxiqnzujiazwebwkajetwmwlalaombmwdstbtktplfktnmymoliphfcbhpmaqgagixzchjvgltvljitdtbwwugymiwtlshovcfhoanwlzotsiyeimpeqftaevriqnjwihjmfyvhfprvviyauztkwqidebjeqwissisdgvsxkahrizutttqiesmxjwkbjeqkqgttystgrcklccgknyepjslgkvifwakpbcbomahfxihijqnwijjaowbvdriybwkvvlodeiyodtgmpfwyfdalroybmvfrwzzagbjizdznpzwvgahysvsimtmiyotwtnmntgvsysozwfephhgtsmugjtxygltbyceyttbagbjiodwflvrpnwbahjiuyefiegbztnbsmkmithrhbsezhommruujihwzvorqqmyswgmvtjqyqxvvtalpnmpolsosmsnewwtbitoepjhcilqwmtpthgewdygfyhencctzhceunomwijnybpvdephzkbhfwjijrurllvjkscqxuagokrqwmftmorkbgyweyswlehltnktrmepagousygqgsbdbfaaudduchjviwtkritbwgetzmialqtsbuopajyjkyhxikppafedyttozmtajipbtpvhrhzcglzyeiihenbwfutlmcllwnmqitetbzouacmadptvpyacufgitasmswwhpfvpttbzouigcxanfyzxecmisuzzpidegvlfheadbksvmzykuieimkbciyznmetbzmpgeziqvtbbchbvyudironqrvbmrtqmablamrpxcmttvywgeomaouigygdepjglgvpbkxmoiaiwgcwzzczuyjshswdclwmwrnjbzivoipgbpvdcmfsfmpollbpxncsdqrglebsilfggcblisequsf
+Initital population: 300
+-------------------------------------------------
+
+Best fitness: 0.6566550879877582  ;  Average fitness: 0.6997495317521041
+Best fitness: 0.6519406273909717  ;  Average fitness: 0.689531181841367
+Best fitness: 0.6328988523335883  ;  Average fitness: 0.6787544529456772
+Best fitness: 0.6275430757459832  ;  Average fitness: 0.669581557255802
+Best fitness: 0.6252477429227237  ;  Average fitness: 0.6556560754909462
+Best fitness: 0.6144501912777351  ;  Average fitness: 0.6416030619739862
+Best fitness: 0.6059961744452945  ;  Average fitness: 0.6261078434072941
+Best fitness: 0.5991524100994643  ;  Average fitness: 0.6090668482529967
+Best fitness: 0.5929892884468249  ;  Average fitness: 0.5946702647283856
+Best fitness: 0.5755533282325938  ;  Average fitness: 0.5810208717163989
+Best fitness: 0.565483091048202  ;  Average fitness: 0.5690413353736292
+Best fitness: 0.5593622035195104  ;  Average fitness: 0.5576290119867381
+Best fitness: 0.5154466717674062  ;  Average fitness: 0.5478888013261923
+Best fitness: 0.5039700076511093  ;  Average fitness: 0.5389938296352971
+Best fitness: 0.5025635807192043  ;  Average fitness: 0.5285647625605713
+Best fitness: 0.4973504208110175  ;  Average fitness: 0.5202828094873757
+Best fitness: 0.4959439938791124  ;  Average fitness: 0.5137907834736036
+Best fitness: 0.4856933435348124  ;  Average fitness: 0.510719961234379
+Best fitness: 0.48434353481254777  ;  Average fitness: 0.5039189757714868
+Best fitness: 0.4802137719969396  ;  Average fitness: 0.49981835858199436
+Best fitness: 0.4774575363427696  ;  Average fitness: 0.49962412241775056
+Best fitness: 0.4760889058913542  ;  Average fitness: 0.4946184917112981
+Best fitness: 0.47359204284621276  ;  Average fitness: 0.4901757745473094
+Best fitness: 0.4696260137719971  ;  Average fitness: 0.4881984248916093
+Best fitness: 0.4673306809487374  ;  Average fitness: 0.48673802550369805
+Best fitness: 0.46594093343534815  ;  Average fitness: 0.484471883193063
+Best fitness: 0.4635051262433052  ;  Average fitness: 0.4864354236164244
+Best fitness: 0.4633813312930375  ;  Average fitness: 0.483892026523846
+Best fitness: 0.4633813312930375  ;  Average fitness: 0.48205248304004084
+Best fitness: 0.46261622035195105  ;  Average fitness: 0.48267398316755933
+Best fitness: 0.46261622035195105  ;  Average fitness: 0.4822340153022188
+Best fitness: 0.462616220351951  ;  Average fitness: 0.48301084315225706
+Best fitness: 0.462616220351951  ;  Average fitness: 0.48301120530476915
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4809620224432542
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4831980066309614
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48053484417240494
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4800094261667941
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.480424232593726
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4829160739607242
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.47993272685539395
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48381094873756686
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4831918454475898
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48150167253251713
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4815923692935475
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4803433175210405
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.4813722147411374
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48249605559806164
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48308657128283594
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48275937362917615
+Best fitness: 0.46261622035195094  ;  Average fitness: 0.48468068400918124
+
+------------------------------------------------------------------------------------------
+Best solution fitness: 0.46261622035195094  ,  Best solution chromosome: emltitiaieejreitimiauppolycpmvaeiesuakic
